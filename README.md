@@ -362,3 +362,79 @@ B) រត់ script និងផ្ញើឯកសារ generated នៅទី�
 C) ឬបន្ថែម logo និង ហត្ថលេខា នៅលើ PDF ទាំងស្រុង?
 
 សូមជ្រើសចម្លើយដែលចង់ — ខ្ញុំនឹងបន្តធ្វើការ។
+html>
+ <lang "km">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>update students</title>
+  <head>
+  <style>
+    <link rel="stylesheet" href="styles.css">
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+  }
+
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  table td, table th {
+    white-space: nowrap;
+  }
+  th, td {
+    padding: 2px 8px;
+    line-height: 1.5;
+    text-align: center;
+  }
+    </style>
+  </head>
+<body>
+<h2>STUDENTS INFOMATION</h2>
+<p>សូមបញ្ជូលព័ត៌មានសិស្ស និងធ្វើបច្ចុប្បន្នភាពជាប្រចាំសម្រាប់ឆ្នាំ២០២៦</p>
+<table id="studentList">
+    <thead>
+        <tr>
+            <th>##</th>
+            <th>studentId</th>
+            <th>lastName</th>
+            <th>firstName</th>
+            <th>dob</th>
+            <th>age</th>
+            <th>sex</th>
+            <th>grade</th>
+            <th>phoneNumber</th>
+<th>fullAddress</th><th>fatherName</th><th>father'sJob</th><th>motherName</th><th>mother'sJob</th><th>poor</th><th>disably</th><th>orphan</th><th>scholarship</th><th>status</th><th>action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>1</th>
+            <th><input type="number" value="1860987"></th>
+            <td contenteditable="true">ក្តាម</td>
+            <td contenteditable="true">កន</td>
+            <td><input type="date" id="date" value="17/09/2013"></td><td>0</td>
+            <td><select value="select"><option value="ប្រុស">ប្រុស</option><option value ="ស្រី">ស្រី</option></select>
+            <td class="select"> <select>
+<option value="1A">1A</option><option value="2B">2B</option><option value="3A">3A</option><option value="4B">4B</option><option value="5A">5A</option><option value="6B">6B</option><option value="HL">HL</option><option value="HL">HL</option><option value="1B">1B</option><option value="2A">2A</option><option value="3B">3B</option><option value="4A">4A</option><option value="5B">5B</option><option value="6A">6A</option></select></td><td><input type="number" value="097......."></td><td contenteditable="true">ភូមិមុខឈ្នាង ឃុំស្ពានស្រែង ស្រុកភ្នំស្រុក ខេត្តបន្ទាយមានជ័យ</td><td contenteditable="true"></td> <td contenteditable="true"></td><td contenteditable="true"></td> <td contenteditable="true"></td><td class="selext"><select><option value=""></option><option value="ក្រ១">ក្រ១</option><option value="ក្រ២">ក្រ២</option><option value="ផ្សេងៗ">ផ្សេង</option></select> <td class="select"><select><option value=""></option><option value="ប.ចលនា">ប.ចលនា</option><option value="ប.ស្តាប់">ប.ស្តាប់</option><option value="ប.និយាយ">ប.និយាយ</option><option value="ប.មើល">ប.មើល</option><option value="ប.សរីរាង្គក្នុង">ប.សរីរាង្គក្នុង</option><option value="បញ្ហាផ្លូវចិត្ត">បញ្ហាផ្លូវចិត្ត</option><option value="បញ្ហាសតិបញ្ញា">បញ្ហាសតិបញ្ញា</option><option value="បញ្ហាផ្សេងៗ">បញ្ហាផ្សេងៗ</option></select><td class="select"><select><option value=""></option><option value="កំព្រាឳពុក">កំព្រាឳពុក</option><option value="កំព្រាម្ដាយ">កំព្រាម្ដាយ</option><option value="កំព្រាឳពុកម្ដាយ">កំព្រាឳពុកម្ដាយ</option></select><td class="select"><select><option value=""></option><option value="✔️">✔️</option><option value="✖️">✖️</option></select> </select><td class="select"><select><option value=""></option><option value="ផ្ទេរចេញ">ផ្ទេរចេញ</option><option value="បោះបង់">បោះបង់</option><option value="ចំណាកស្រុក">ចំណាកស្រុក</option><option value="មិនផ្ដល់ព័ត៌មាន">មិនផ្ដល់ព័ត៌មាន</option></select></td><td></td>
+</tr>
+		<tr>
+			<td colspan="10">
+			<p style="text-align:center">បានឃើញ និងឯកភាព</span></p><p><span style="text-align:center">ថ្ងៃព្រហស្បតិ៍ ១១កើត ខែមាឃ ឆ្នាំម្សាញ់ សប្តស័ក ព.ស&nbsp;២៥៦៩</span></p>
+			<p><span style="text-align: center"> រោគ ថ្ងៃទី២៩ ខែមករា ឆ្នាំ២០២៦</span></p><p style="text-align:center"><span><strong>នាយិកា</strong></span></p>
+			</td>
+			<td colspan="10">
+			<p><span style="text-align:center">ថ្ងៃព្រហស្បតិ៍ ១១កើត ខែមាឃ ឆ្នាំម្សាញ់ សប្តស័ក ព.ស&nbsp;២៥៦៩</span></p>
+			<p><span style="text-align: center"> រោគ ថ្ងៃទី២៩ ខែមករា ឆ្នាំ២០២៦</span></p><p style="text-align:center"><p>អ្នកធ្វើតារាង</p><p style="text-align:center"><p span><strong> </strong></span></p><p></p>
+
+
+<div><br></br><br></br>
+<p style="text-align:center"><span><strong></strong></span>
+<p style="text-align:center"><span><strong>អ៊ុន ប៊ុនទុង</strong></span></p>
+			</td>
+	</tbody>
+</table>
+</body></html>
+
+
